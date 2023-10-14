@@ -1,0 +1,95 @@
+
+body{
+    background-color: lightskyblue;
+}
+
+h1{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+img{
+    border: 5px black;
+    border-color: black;
+    width: 200px;
+
+}
+
+#skip{
+    position: absolute;
+    left: -500px;
+}
+
+#skip{
+    position: focus;
+    left: 200px;
+}
+
+
+nav{
+
+}
+
+li{
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightpink;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+div{
+    text-align: center;
+}
+
+h3{
+    color: blue;
+}
+
+@media screen and (min-width: 330px) {
+    /* for mobile */
+    h3{
+        color: black;
+        width: 100%;
+    }
+
+    body{
+        background-color: cornsilk;
+    }
+
+    .grid{
+        display: grid;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        grid-template-columns: 500px;
+    
+        /* Play with: */
+         justify-content:center; 
+        /* justify-items:;  */
+        /* align-items:; */
+        /* align-content:; */
+     }
+  }
